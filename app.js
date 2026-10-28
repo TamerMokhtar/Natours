@@ -3,7 +3,7 @@ const express = require("express");
 const morgan = require("morgan"); // Import morgan for logging HTTP requests
 
 const AppError = require("./utils/appError"); // Import custom AppError class
-const globalErrorHandler = require("./controllers/error.Controller"); // Import global error handling middleware
+const globalErrorHandler = require("./controllers/errorController"); // Import global error handling middleware
 const tourRouter = require("./routes/tourRoutes"); // Import tour routes
 const userRouter = require("./routes/userRoutes"); // Import user routes
 
